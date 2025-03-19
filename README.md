@@ -1,10 +1,10 @@
 Gerenciador de Pedidos
 ===================
-Projeto de um gerenciador de pedidos, onde È possÌvel cadastrar clientes, produtos e pedidos. O projeto foi desenvolvido em C# com .NET Core 3.1.
+Projeto de um gerenciador de pedidos, onde √© poss√≠vel cadastrar clientes, produtos e pedidos. O projeto foi desenvolvido em C# com .NET Core 3.1.
 
 
 
-Clonar no github o repositÛrio do projeto
+Clonar no github o reposit√≥rio do projeto
 ```sh git clone https://github.com/Thay2024/GerenciadorDePedidos.git ```
 
 Acessar a pasta do projeto
@@ -12,12 +12,15 @@ Acessar a pasta do projeto
 
 Rodar o projeto
 ```sh dotnet run ```
-```O projeto ser· executado no terminal.```
+```O projeto ser√° executado no terminal.```
 
 
-Menu aparecer· com as opÁıes de cadastro de produtos, clientes e pedidos.
-``` escolha a opÁ„o desejada e siga as instruÁıes. ```
-```ApÛs o cadastro, ser· possÌvel visualizar os dados cadastrados.```
+Menu aparecer√° com as op√ß√µes de cadastro de produtos, clientes e pedidos.
+``` escolha a op√ß√£o desejada e siga as instru√ß√µes. ```
+```Ap√≥s o cadastro, ser√° poss√≠vel visualizar os dados cadastrados.```
 
-```Poder· editar e remover cliente, produtos e pedidos.```
+```Poder√° editar e remover cliente, produtos e pedidos.```
+
+Melhorias feito no codigo:  acrescentado as classes clientes e pedidos para melhor usabilidade.
+
 
