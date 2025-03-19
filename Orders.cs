@@ -11,7 +11,7 @@ namespace GerenciadorDePedidos
         public void AddOrderToClient()
         {
             clients.ListClients();
-            Console.Write("\nInforme o ID do cliente para adicionar o pedido: ");
+            Console.Write("\nInforme identificação do cliente: ")
             int clientId = int.Parse(Console.ReadLine());
             Console.Write("Data do pedido: ");
             string orderDate = Console.ReadLine();
