@@ -21,7 +21,7 @@ namespace GerenciadorDePedidos
                 using (var conn = new SqliteConnection(database.connection))
                 {
                     conn.Open();
-                    string sql = "INSERT INTO orders (clientId, data) VALUES (@clientId, @data)";
+                    string sql = "INSERT INTO orders (clientId, data) VALUES (@clientId, @data)";//chave estrangeira do cliente interferindo no delete
                     using (var cmd = new SqliteCommand(sql, conn))
                     {
                         cmd.Parameters.AddWithValue("@clientId", clientId);
