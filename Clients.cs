@@ -50,7 +50,7 @@ namespace GerenciadorDePedidos
                 using (var conn = new SqliteConnection(database.connection))
                 {
                     conn.Open();
-                    string sql = "DELETE FROM clients WHERE id = @id";
+                    string sql = "DELETE FROM clients WHERE id = @id"; // tem que ser removido por cascata
                     using (var cmd = new SqliteCommand(sql, conn))
                     {
                         cmd.Parameters.AddWithValue("@id", clientId);
